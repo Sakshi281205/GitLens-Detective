@@ -1,15 +1,67 @@
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
 .idea/
-*.egg-info
-.cache/
-*.pyc
-htmlcov
+*.swp
+*.swo
+*~
 
+# Temporary files
+*.tmp
+*.temp
+*.log
 
-##############################################################################
+# Screenshots (uncomment if you want to ignore actual screenshot files)
+# *.png
+# *.jpg
+# *.jpeg
+
+# Python (if any Python scripts are added)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Node.js (if any Node.js tools are added)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
 # The below is GitHub template for Python project. gitignore.
 # <https://github.com/github/gitignore/blob/master/Python.gitignore>
-##############################################################################
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
